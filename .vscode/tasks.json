@@ -6,12 +6,17 @@
     {
       "command": "rbeautify",
       "taskName": "Ruby format",
-      "args": ["${file}"]
+      "args": [
+        "${file}"
+      ]
     },
     {
       "command": "htmlbeautifier",
       "taskName": "ERB format",
-      "args": ["${file}"]
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": []
     }
   ]
 }
